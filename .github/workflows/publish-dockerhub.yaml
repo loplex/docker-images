@@ -22,6 +22,8 @@ jobs:
             image_name: alpine-xcalc
           - app_dir: images/alpine-user
             image_name: alpine-user
+          - app_dir: images/alpine-basic
+            image_name: alpine-basic
 
     steps:
       - name: Checkout code
