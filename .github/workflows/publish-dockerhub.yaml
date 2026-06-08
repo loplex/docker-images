@@ -20,6 +20,8 @@ jobs:
         include:
           - app_dir: images/alpine-xcalc
             image_name: alpine-xcalc
+          - app_dir: images/alpine-user
+            image_name: alpine-user
 
     steps:
       - name: Checkout code
